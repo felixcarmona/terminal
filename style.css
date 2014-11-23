@@ -1,0 +1,25 @@
+.fancy-terminal {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, Fixed, monospace;
+    background: #444444 url('terminal.png') no-repeat 9px 7px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 115%;
+    padding: 10px 10px 10px 50px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden; /*IE 8*/
+}
+
+.fancy-terminal.fancy-terminal-spaced {
+    line-height: 200%;
+}
+
+.fancy-terminal > div {
+    display: inline-block;
+    background: #444444;
+    box-shadow: 10px 0 0 #444444, -10px -10px 0 #444444;
+}
+
